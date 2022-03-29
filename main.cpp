@@ -3,11 +3,13 @@ using namespace std;
 int main() {
     int a, b, x, y;
     cin >> a >> b >> x >> y;
-    if ( y>0, x<0){
-        cout << (a*x-b*y) << endl;
-    if (x>=0, y<=0)
-        cout << (a * (b * b) - b * y) << endl;
-    }else
-        cout<<(a*x+b*(y*y))<<endl;
+    if (x<0 ; y>0){
+        cout << a*x-b*y<<endl;
+        if (x>=0; y<=0)
+        cout <<a*(x*x)-b*y << endl;
+    }
+    else{
+        cout << a*x+b*(y*y) << endl;
+    }
     return 0;
     }
