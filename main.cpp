@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int x=0, y=0, a=0, b=0;
+    int  a=0, b=0, x=0, y=0;
     cin>> a >> b >> x >> y;
     if(x<0, y>0){
       cout <<(a * x - b * y)<< endl;
     }
-    else if(x>=0, y<=0){
+    if(x>=0, y<=0){
         cout<<(a*(b*b)-b*y)<< endl;
     }
     else
